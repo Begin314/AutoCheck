@@ -26,6 +26,7 @@ API_KEY 和 API_SECRET 获取方法见 [API获取](./API获取.md)
 结果一般如下
 ![result.png](./doc/result.png)
 
+
 这个脚本是 每天早上6点 自动执行，想要修改可以更改 [.github/workflows/zero-org-check.yml](./.github/workflows/zero-org-check.yml) 文件的 `- cron: '0 22 * * *`
  部分
 
